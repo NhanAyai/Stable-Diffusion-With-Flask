@@ -78,6 +78,7 @@ The app supports the following Stable Diffusion models:
 ---
 
 ## **Folder Structure**
+```
 project/
 │
 ├── text2image.py # Core image generation logic
