@@ -63,3 +63,27 @@ The folder where generated images are saved. The Flask app serves images from th
 5. **View Results**:
    - The generated image will be displayed on the webpage.
    - The prompt will be added to the history section.
+
+## **Model List**
+
+The app supports the following Stable Diffusion models:
+1. `stabilityai/stable-diffusion-2-1`
+2. `CompVis/stable-diffusion-v1-4`
+3. `runwayml/stable-diffusion-v1-5`
+4. `prompthero/openjourney`
+5. `hakurei/waifu-diffusion`
+6. `dreamlike-art/dreamlike-photoreal-2.0`
+7. `nota-ai/bk-sdm-small`
+
+---
+
+## **Folder Structure**
+project/
+│
+├── text2image.py # Core image generation logic
+├── server_model.py # Flask server
+├── templates/
+│ └── index.html # Frontend HTML template
+├── static/ # Folder for generated images
+│ └── output.jpg
+└── README.md # Project documentation
