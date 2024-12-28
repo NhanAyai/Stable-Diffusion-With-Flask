@@ -88,3 +88,23 @@ project/
 ├── static/ # Folder for generated images
 │ └── output.jpg
 └── README.md # Project documentation
+```
+
+## **Reference**
+
+- **Video Tutorial**: [Stable Diffusion Tutorial](https://www.youtube.com/watch?v=vDAgIokDQ4Q&t=2197s)  
+  This video helped me understand the basics of Stable Diffusion and how to implement it in Python.
+
+- **Code Reference**: [MIAI_GAN_EuroSat GitHub Repository](https://github.com/thangnch/MIAI_GAN_EuroSat/)  
+  This repository provided a foundation for building the Flask app and integrating Stable Diffusion models.
+
+---
+
+## **What I Have Learned**
+
+Through this project, I gained hands-on experience in several key areas:
+1. **Loading Models from HuggingFace**: I learned how to load pre-trained Stable Diffusion models from HuggingFace using the `diffusers` library.
+2. **Configuring Hyperparameters**: I explored how to configure basic hyperparameters such as `inference_steps`, `guidance_scale`, and image dimensions to control the image generation process.
+3. **Building a Flask App**: I developed a web application using Flask to provide a user-friendly interface for text-to-image generation. This included handling user inputs, processing requests, and displaying results dynamically.
+4. **Integrating Frontend and Backend**: I learned how to connect the frontend (HTML/CSS) with the backend (Flask) to create a seamless user experience.
+5. **Deploying a Local Server**: I set up a local server using Flask to host the application and make it accessible via a web browser.
