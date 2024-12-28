@@ -40,27 +40,26 @@ The folder where generated images are saved. The Flask app serves images from th
 ## **Setup Instructions**
 
 ### **Prerequisites**
-1. Python 3.8 or higher.
-2. Install the required libraries:
+1. Clone the repository or download the files.
+2. Python 3.8 or higher.
+3.. Install the required libraries:
    ```bash
-   pip install flask torch diffusers
-# Setup Instructions
-## Prerequisites
-1. **Clone the repository or download the files.**
-2. **Pip install the file setup.txt**
-3. **Run the Flask app: python server_model.py**
+   pip install -r setup.txt
 
 ## **Usage**
-
-1. **Enter a Prompt**:
+1. Run the Flask app:
+    ```bash
+   python server_model.py
+    
+2. **Enter a Prompt**:
    - Type your text prompt in the text area.
 
-2. **Select a Model**:
+3. **Select a Model**:
    - Choose a Stable Diffusion model from the dropdown menu. Note: Top models may take longer to load and generate images.
 
-3. **Generate Image**:
+4. **Generate Image**:
    - Click the “Generate Image” button to create an image from the prompt.
 
-4. **View Results**:
+5. **View Results**:
    - The generated image will be displayed on the webpage.
    - The prompt will be added to the history section.
