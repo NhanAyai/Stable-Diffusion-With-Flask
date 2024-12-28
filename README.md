@@ -1,27 +1,24 @@
-text2image.py
-This script handles the core functionality of image generation using Stable Diffusion models from the HuggingFace library. It includes:
+# Setup Instructions
+## Prerequisites
+1. Clone the repository or download the files.
+2. Pip install the file setup.txt
+3. Run the Flask app: python server_model.py
 
-A list of pre-trained models.
+# Usage
+Enter a Prompt:
 
-Functions to create a pipeline and generate images from text prompts.
+Type your text prompt in the text area.
 
-server_model.py
-This script acts as the server-side component powered by Flask. It:
+Select a Model:
 
-Handles user requests (GET and POST).
+Choose a Stable Diffusion model from the dropdown menu. Note: Top models may take longer to load and generate images.
 
-Generates images using the selected model.
+Generate Image:
 
-Saves the generated image to the static folder and displays it on the webpage.
+Click the "Generate Image" button to create an image from the prompt.
 
-index.html
-The frontend interface for the web app. It includes:
+View Results:
 
-A text area for entering prompts.
+The generated image will be displayed on the webpage.
 
-A dropdown menu for selecting models.
-
-A section to display the generated image and prompt history.
-
-static/
-The folder where generated images are saved. The Flask app serves images from this folder.
+The prompt will be added to the history section.
