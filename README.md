@@ -73,7 +73,7 @@ stable-diffusion-web-app/
 | `dreamlike-art/dreamlike-photoreal-2.0`| 2.0         | Photorealistic Images     |
 | `nota-ai/bk-sdm-small`                 | tiny        | Mobile Optimization       |
 
-## 📚 References
+## 🔎 References
 
 - [Stable Diffusion Tutorial Video](https://www.youtube.com/watch?v=SvfWcATc5VY&t=1566s)
 - [Official Diffusers Documentation](https://huggingface.co/docs/diffusers)
