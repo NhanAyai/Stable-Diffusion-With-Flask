@@ -54,8 +54,7 @@ python server_model.py
 stable-diffusion-web-app/
 ├── text2image.py            # Core generation logic
 ├── server_model.py          # Flask server configuration
-├── templates/
-│   ├── base.html            # Master template
+├── templates/  
 │   └── index.html           # Main interface
 ├── static/
 │   ├── css/                 # Custom styles
