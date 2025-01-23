@@ -41,6 +41,7 @@
 
 ### Installation
 ```bash
+
 # Clone repository
 git clone https://github.com/your-username/stable-diffusion-web-app.git
 cd stable-diffusion-web-app
@@ -67,6 +68,9 @@ stable-diffusion-web-app/
 ├── requirements.txt         # Dependency list
 └── README.md                # Documentation
 
+```
+
+```bash
 ## 📚 Model Library
 Model	Version	Specialization
 stabilityai/stable-diffusion-2-1	2.1	General Purpose
