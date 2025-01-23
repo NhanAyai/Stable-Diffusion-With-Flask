@@ -11,7 +11,7 @@
 <div align="center">
   <br>
   <p>Transform text into stunning AI-generated images with state-of-the-art diffusion models</p>
-  <img width="75%" src="https://www.vectorlogo.zone/logos/huggingface/huggingface-ar21.svg" alt="HuggingFace Logo">
+  <img width="75%" src="[https://www.vectorlogo.zone/logos/huggingface/huggingface-ar21.svg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhuggingface.co%2Fbrand&psig=AOvVaw1EfWPUhGJ4-yvZHBbpZ48A&ust=1737723079707000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDT94bxi4sDFQAAAAAdAAAAABAE)" alt="HuggingFace Logo">
 </div>
 
 ---
