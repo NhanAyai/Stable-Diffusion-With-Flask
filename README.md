@@ -57,12 +57,8 @@ stable-diffusion-web-app/
 ├── templates/  
 │   └── index.html           # Main interface
 ├── static/
-│   ├── css/                 # Custom styles
-│   ├── js/                  # Interactive scripts
 │   └── outputs/             # Generated images
-├── models/                  # Local model cache
 ├── requirements.txt         # Dependency list
-└── README.md                # Documentation
 
 ```
 ## 📚 Model Library
@@ -76,3 +72,11 @@ stable-diffusion-web-app/
 | `hakurei/waifu-diffusion`              | 1.3         | Anime/Manga               |
 | `dreamlike-art/dreamlike-photoreal-2.0`| 2.0         | Photorealistic Images     |
 | `nota-ai/bk-sdm-small`                 | tiny        | Mobile Optimization       |
+
+## 📚 References
+
+- [Stable Diffusion Tutorial Video](https://www.youtube.com/watch?v=SvfWcATc5VY&t=1566s)
+- [Official Diffusers Documentation](https://huggingface.co/docs/diffusers)
+- [Stable Diffusion Paper](https://arxiv.org/abs/2112.10752)
+- [Flask Web Development Guide](https://flask.palletsprojects.com/en/2.3.x/)
+- [AI Art Community Best Practices](https://github.com/Maks-s/sd-awesome)
