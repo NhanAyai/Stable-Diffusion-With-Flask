@@ -1,30 +1,43 @@
-🎨 Stable Diffusion Text-to-Image Web App
-🌟 Transform Text into Stunning Images with AI!
-This project is a web application that generates images from text prompts using Stable Diffusion models from HuggingFace. Built with Flask for the backend and integrated with the HuggingFace diffusers library, this app brings your imagination to life!
+# 🎨 Stable Diffusion Text-to-Image Web App  
 
-🚀 Features
-Text-to-Image Generation: Create unique images from text prompts using state-of-the-art Stable Diffusion models.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/Flask-2.3.2-green" alt="Flask Version">
+  <img src="https://img.shields.io/badge/HuggingFace-Diffusers-orange" alt="HuggingFace Diffusers">
+</p>
 
-Model Selection: Choose from a variety of pre-trained models to customize your image generation.
+🌟 **Transform Text into Stunning Images with AI!**  
+This project is a web application that generates images from text prompts using **Stable Diffusion models** from HuggingFace. Built with **Flask** for the backend and integrated with the HuggingFace `diffusers` library, this app brings your imagination to life!  
 
-Prompt History: Keep track of your creative journey with a history of previously used prompts.
+---
 
-Responsive UI: Enjoy a clean, user-friendly interface designed for seamless interaction.
+## 🚀 **Features**  
 
-🛠️ Files Overview
-File/Folder	Description
-text2image.py	Core logic for image generation using Stable Diffusion models.
-server_model.py	Flask server to handle requests, generate images, and display results.
-templates/index.html	Frontend interface with a text input, model dropdown, and image display.
-static/	Folder for storing generated images (e.g., output.jpg).
-README.md	Project documentation (you're here!).
-🧰 Setup Instructions
-Prerequisites
-Clone the repository:
+- **Text-to-Image Generation**: Create unique images from text prompts using state-of-the-art Stable Diffusion models.  
+- **Model Selection**: Choose from a variety of pre-trained models to customize your image generation.  
+- **Prompt History**: Keep track of your creative journey with a history of previously used prompts.  
+- **Responsive UI**: Enjoy a clean, user-friendly interface designed for seamless interaction.  
 
-bash
-Copy
-git clone https://github.com/your-username/stable-diffusion-web-app.git
+---
+
+## 🛠️ **Files Overview**  
+
+| **File/Folder**          | **Description**                                                                 |
+|--------------------------|---------------------------------------------------------------------------------|
+| `text2image.py`           | Core logic for image generation using Stable Diffusion models.                  |
+| `server_model.py`         | Flask server to handle requests, generate images, and display results.          |
+| `templates/index.html`    | Frontend interface with a text input, model dropdown, and image display.        |
+| `static/`                 | Folder for storing generated images (e.g., `output.jpg`).                       |
+| `README.md`               | Project documentation (you're here!).                                           |
+
+---
+
+## 🧰 **Setup Instructions**  
+
+### **Prerequisites**  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/stable-diffusion-web-app.git
 Install Python 3.8 or higher.
 
 Install required libraries:
@@ -87,7 +100,6 @@ stable-diffusion-web-app/
 📚 References
 Video Tutorial: Stable Diffusion Tutorial
 This video helped me understand the basics of Stable Diffusion and how to implement it in Python.
-
 🌱 What I Have Learned
 Through this project, I gained hands-on experience in:
 
@@ -100,13 +112,3 @@ Building a Flask App: Creating a web application with Flask to handle user input
 Frontend-Backend Integration: Connecting HTML/CSS with Flask for a seamless user experience.
 
 Local Server Deployment: Hosting the app locally using Flask and making it accessible via a web browser.
-
-🎉 Get Started
-Ready to unleash your creativity? Clone the repo, follow the setup instructions, and start generating stunning images today!
-
-bash
-Copy
-git clone https://github.com/your-username/stable-diffusion-web-app.git
-cd stable-diffusion-web-app
-pip install -r setup.txt
-python server_model.py
