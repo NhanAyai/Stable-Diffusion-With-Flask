@@ -67,7 +67,6 @@ stable-diffusion-web-app/
 
 ```
 ## 📚 Model Library
-```bash
 
 | **Model**                              | **Version** | **Specialization**       |
 |----------------------------------------|-------------|---------------------------|
