@@ -53,9 +53,9 @@ pip install -r setup.txt
 python server_model.py
 
 ```
+## 🧩 Project Structure
 ```bash
 
-## 🧩 Project Structure
 stable-diffusion-web-app/
 ├── text2image.py            # Core generation logic
 ├── server_model.py          # Flask server configuration
@@ -71,9 +71,9 @@ stable-diffusion-web-app/
 └── README.md                # Documentation
 
 ```
-
-```bash
 ## 📚 Model Library
+```bash
+
 Model	Version	Specialization
 stabilityai/stable-diffusion-2-1	2.1	General Purpose
 CompVis/stable-diffusion-v1-4	1.4	Base Model
