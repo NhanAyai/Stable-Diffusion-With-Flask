@@ -1,114 +1,78 @@
-# 🎨 Stable Diffusion Text-to-Image Web App  
+# 🎨 Stable Diffusion Text-to-Image Web App
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python Version">
-  <img src="https://img.shields.io/badge/Flask-2.3.2-green" alt="Flask Version">
-  <img src="https://img.shields.io/badge/HuggingFace-Diffusers-orange" alt="HuggingFace Diffusers">
-</p>
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-2.3.2-000000?logo=flask" alt="Flask">
+  <img src="https://img.shields.io/badge/HuggingFace-Diffusers-FFD21F?logo=huggingface" alt="HuggingFace">
+  <img src="https://img.shields.io/github/last-commit/your-username/stable-diffusion-web-app?color=blue" alt="Last Commit">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+</div>
 
-🌟 **Transform Text into Stunning Images with AI!**  
-This project is a web application that generates images from text prompts using **Stable Diffusion models** from HuggingFace. Built with **Flask** for the backend and integrated with the HuggingFace `diffusers` library, this app brings your imagination to life!  
-
----
-
-## 🚀 **Features**  
-
-- **Text-to-Image Generation**: Create unique images from text prompts using state-of-the-art Stable Diffusion models.  
-- **Model Selection**: Choose from a variety of pre-trained models to customize your image generation.  
-- **Prompt History**: Keep track of your creative journey with a history of previously used prompts.  
-- **Responsive UI**: Enjoy a clean, user-friendly interface designed for seamless interaction.  
+<div align="center">
+  <br>
+  <p>Transform text into stunning AI-generated images with state-of-the-art diffusion models</p>
+  <img width="75%" src="https://www.vectorlogo.zone/logos/huggingface/huggingface-ar21.svg" alt="HuggingFace Logo">
+</div>
 
 ---
 
-## 🛠️ **Files Overview**  
+## ✨ Features
 
-| **File/Folder**          | **Description**                                                                 |
-|--------------------------|---------------------------------------------------------------------------------|
-| `text2image.py`           | Core logic for image generation using Stable Diffusion models.                  |
-| `server_model.py`         | Flask server to handle requests, generate images, and display results.          |
-| `templates/index.html`    | Frontend interface with a text input, model dropdown, and image display.        |
-| `static/`                 | Folder for storing generated images (e.g., `output.jpg`).                       |
-| `README.md`               | Project documentation (you're here!).                                           |
+<div align="center">
+  
+| **Feature**               | **Description**                                                                 |
+|---------------------------|---------------------------------------------------------------------------------|
+| 🖼️ Text-to-Image AI      | Generate high-quality images from text prompts using Stable Diffusion models    |
+| 🧠 Multiple Models        | Choose from 7+ pretrained models including SD 2.1, OpenJourney, and Waifu       |
+| ⏳ Prompt History         | Track your creative process with automatically saved generation history         |
+| 🎨 Customizable Settings  | Adjust image dimensions, inference steps, and guidance scale for perfect output |
+| 🌐 Web Interface          | Intuitive Flask-based UI with real-time preview and download capabilities       |
+
+</div>
 
 ---
 
-## 🧰 **Setup Instructions**  
+## 🚀 Quick Start
 
-### **Prerequisites**  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/stable-diffusion-web-app.git
-Install Python 3.8 or higher.
+### Prerequisites
+- Python 3.8+
+- pip package manager
+- Git (optional)
 
-Install required libraries:
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/your-username/stable-diffusion-web-app.git
+cd stable-diffusion-web-app
 
-bash
-Copy
+# Install dependencies
 pip install -r setup.txt
-Running the App
-Start the Flask server:
 
-bash
-Copy
+# Launch application
 python server_model.py
-Open your browser and navigate to http://127.0.0.1:5000/.
+```
 
-Enter a text prompt, select a model, and click Generate Image!
-
-🖼️ How to Use
-Enter a Prompt: Type your creative text prompt in the text area.
-
-Select a Model: Choose a Stable Diffusion model from the dropdown menu.
-
-Note: Larger models may take longer to load and generate images.
-
-Generate Image: Click the Generate Image button to create your masterpiece.
-
-View Results:
-
-The generated image will be displayed on the webpage.
-
-Your prompt will be added to the Prompt History section.
-
-🧠 Supported Models
-The app supports the following Stable Diffusion models:
-
-stabilityai/stable-diffusion-2-1
-
-CompVis/stable-diffusion-v1-4
-
-runwayml/stable-diffusion-v1-5
-
-prompthero/openjourney
-
-hakurei/waifu-diffusion
-
-dreamlike-art/dreamlike-photoreal-2.0
-
-nota-ai/bk-sdm-small
-
-📂 Folder Structure
-Copy
+## 🧩 Project Structure
 stable-diffusion-web-app/
-├── text2image.py            # Core image generation logic
-├── server_model.py          # Flask server
+├── text2image.py            # Core generation logic
+├── server_model.py          # Flask server configuration
 ├── templates/
-│   └── index.html           # Frontend HTML template
-├── static/                  # Folder for generated images
-│   └── output.jpg
-└── README.md                # Project documentation
-📚 References
-Video Tutorial: Stable Diffusion Tutorial
-This video helped me understand the basics of Stable Diffusion and how to implement it in Python.
-🌱 What I Have Learned
-Through this project, I gained hands-on experience in:
+│   ├── base.html            # Master template
+│   └── index.html           # Main interface
+├── static/
+│   ├── css/                 # Custom styles
+│   ├── js/                  # Interactive scripts
+│   └── outputs/             # Generated images
+├── models/                  # Local model cache
+├── requirements.txt         # Dependency list
+└── README.md                # Documentation
 
-Loading Models from HuggingFace: Using the diffusers library to load pre-trained Stable Diffusion models.
-
-Configuring Hyperparameters: Adjusting inference_steps, guidance_scale, and image dimensions for optimal results.
-
-Building a Flask App: Creating a web application with Flask to handle user inputs and display results dynamically.
-
-Frontend-Backend Integration: Connecting HTML/CSS with Flask for a seamless user experience.
-
-Local Server Deployment: Hosting the app locally using Flask and making it accessible via a web browser.
+## 📚 Model Library
+Model	Version	Specialization
+stabilityai/stable-diffusion-2-1	2.1	General Purpose
+CompVis/stable-diffusion-v1-4	1.4	Base Model
+runwayml/stable-diffusion-v1-5	1.5	Enhanced Details
+prompthero/openjourney	v4	Artistic Styles
+hakurei/waifu-diffusion	1.3	Anime/Manga
+dreamlike-art/dreamlike-photoreal-2.0	2.0	Photorealistic Images
+nota-ai/bk-sdm-small	tiny	Mobile Optimization
