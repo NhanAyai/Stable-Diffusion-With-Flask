@@ -52,6 +52,8 @@ pip install -r setup.txt
 # Launch application
 python server_model.py
 
+```
+```bash
 
 ## 🧩 Project Structure
 stable-diffusion-web-app/
