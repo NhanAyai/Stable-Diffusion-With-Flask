@@ -51,7 +51,7 @@ python server_model.py
 ## 🧩 Project Structure
 ```bash
 
-stable-diffusion-web-app/
+
 ├── text2image.py            # Core generation logic
 ├── server_model.py          # Flask server configuration
 ├── templates/  
