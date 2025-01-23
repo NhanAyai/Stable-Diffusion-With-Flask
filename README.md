@@ -69,11 +69,12 @@ stable-diffusion-web-app/
 ## 📚 Model Library
 ```bash
 
-Model	Version	Specialization
-stabilityai/stable-diffusion-2-1	2.1	General Purpose
-CompVis/stable-diffusion-v1-4	1.4	Base Model
-runwayml/stable-diffusion-v1-5	1.5	Enhanced Details
-prompthero/openjourney	v4	Artistic Styles
-hakurei/waifu-diffusion	1.3	Anime/Manga
-dreamlike-art/dreamlike-photoreal-2.0	2.0	Photorealistic Images
-nota-ai/bk-sdm-small	tiny	Mobile Optimization
+| **Model**                              | **Version** | **Specialization**       |
+|----------------------------------------|-------------|---------------------------|
+| `stabilityai/stable-diffusion-2-1`     | 2.1         | General Purpose           |
+| `CompVis/stable-diffusion-v1-4`        | 1.4         | Base Model                |
+| `runwayml/stable-diffusion-v1-5`       | 1.5         | Enhanced Details          |
+| `prompthero/openjourney`               | v4          | Artistic Styles           |
+| `hakurei/waifu-diffusion`              | 1.3         | Anime/Manga               |
+| `dreamlike-art/dreamlike-photoreal-2.0`| 2.0         | Photorealistic Images     |
+| `nota-ai/bk-sdm-small`                 | tiny        | Mobile Optimization       |
